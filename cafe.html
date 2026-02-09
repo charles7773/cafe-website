@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Amber Leaf Café</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family:'Poppins',sans-serif;
+  background:#f6f4ef;
+  color:#333;
+}
+.hero{
+  background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
+  url('https://images.unsplash.com/photo-1509042239860-f550ce710b93');
+  background-size:cover;
+  background-position:center;
+  padding:110px 20px;
+  text-align:center;
+  color:#fff;
+}
+.hero h1{font-size:48px;margin-bottom:10px;}
+.hero p{font-size:18px;max-width:700px;margin:auto;}
+.hero a{
+  display:inline-block;
+  margin-top:30px;
+  background:#c7a17a;
+  padding:15px 36px;
+  border-radius:30px;
+  color:#fff;
+  text-decoration:none;
+  font-weight:600;
+}
+section{
+  max-width:1100px;
+  margin:auto;
+  padding:80px 20px;
+}
+h2{
+  text-align:center;
+  margin-bottom:40px;
+  color:#4b2e19;
+}
+.story{
+  max-width:820px;
+  margin:auto;
+  text-align:center;
+  font-size:17px;
+  line-height:1.8;
+}
+.owner{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:40px;
+  align-items:center;
+}
+.owner img{
+  width:100%;
+  border-radius:18px;
+}
+.owner div{
+  background:#fff;
+  padding:35px;
+  border-radius:18px;
+  box-shadow:0 15px 30px rgba(0,0,0,0.1);
+}
+.menu{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+  gap:25px;
+}
+.menu div{
+  background:#fff;
+  padding:30px;
+  border-radius:16px;
+  box-shadow:0 12px 25px rgba(0,0,0,0.1);
+}
+.menu h3{color:#c7a17a;}
+.gallery{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:20px;
+}
+.gallery img{
+  width:100%;
+  border-radius:16px;
+}
+.visit{
+  background:#4b2e19;
+  color:#fff;
+  text-align:center;
+  padding:90px 20px;
+}
+.visit a{
+  background:#25D366;
+  color:#fff;
+  padding:14px 34px;
+  border-radius:30px;
+  text-decoration:none;
+  font-weight:600;
+}
+footer{
+  background:#111;
+  color:#fff;
+  text-align:center;
+  padding:20px;
+  font-size:14px;
+}
+.whatsapp{
+  position:fixed;
+  right:20px;
+  bottom:20px;
+}
+.whatsapp a{
+  background:#25D366;
+  color:#fff;
+  padding:16px 18px;
+  border-radius:50%;
+  font-size:22px;
+  text-decoration:none;
+}
+@media(max-width:768px){
+  .owner{grid-template-columns:1fr}
+  .hero h1{font-size:36px;}
+}
+</style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<div class="hero">
+<h1>Amber Leaf Café</h1>
+<p>A peaceful café crafted for slow coffee, warm light, and meaningful moments</p>
+<a href="https://wa.me/910000000000">Enquire on WhatsApp</a>
+</div>
+
+<!-- STORY -->
+<section>
+<h2>Our Café Story</h2>
+<p class="story">
+Amber Leaf Café was created to offer more than just coffee.
+It is a space where people pause, unwind, and enjoy handcrafted brews in a calm, welcoming environment.
+Every detail — from lighting to flavors — is thoughtfully designed.
+</p>
+</section>
+
+<!-- OWNER -->
+<section>
+<h2>Meet the Founder</h2>
+<div class="owner">
+<img src="https://images.unsplash.com/photo-1520975916090-3105956dac38" alt="Cafe Owner">
+<div>
+<h3>Rohan Mehta</h3>
+<p>
+Founder & Head Barista of Amber Leaf Café.
+With a deep appreciation for café culture, Rohan envisioned a space where
+quality coffee meets community, creativity, and comfort.
+</p>
+</div>
+</div>
+</section>
+
+<!-- MENU -->
+<section>
+<h2>Signature Offerings</h2>
+<div class="menu">
+<div>
+<h3>Artisan Coffee</h3>
+<p>Espresso, cappuccino, latte & hand-brewed coffee.</p>
+</div>
+<div>
+<h3>Cold Brews</h3>
+<p>Slow-brewed, smooth and refreshing blends.</p>
+</div>
+<div>
+<h3>Fresh Bakes</h3>
+<p>Pastries and desserts prepared daily.</p>
+</div>
+</div>
+</section>
+
+<!-- GALLERY -->
+<section>
+<h2>Café Ambience</h2>
+<div class="gallery">
+<img src="https://images.unsplash.com/photo-1511920170033-f8396924c348">
+<img src="https://images.unsplash.com/photo-1498804103079-a6351b050096">
+<img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5">
+</div>
+</section>
+
+<!-- VISIT -->
+<div class="visit">
+<h2>Visit Amber Leaf Café</h2>
+<p>
+📍 23, Park Street, Near Central Mall<br>
+Jaipur, Rajasthan – 302001<br><br>
+⏰ Open Daily: 9:00 AM – 11:00 PM
+</p>
+<br>
+<a href="https://wa.me/910000000000">Get Directions / WhatsApp</a>
+</div>
+
+<footer>
+Demo Website – Sample Design Only | © 2026
+</footer>
+
+<div class="whatsapp">
+<a href="https://wa.me/910000000000">💬</a>
+</div>
+
+</body>
+</html>
